@@ -66,3 +66,20 @@ jobs:
             state: 'success'
             sha: ${{ github.event.pull_request.head.sha }}
             target_url: https://mamdouhmansour.github.io/allure/${{ github.run_number }}
+      - name: Send email
+        uses: devellany/send-mailer@v1.0.2
+        with:
+              server_address: smtp.gmail.com
+            # Optional port (defaults to 465)
+              port: 465
+              account: ${{secrets.ACCOUNT}}
+              password: ${{secrets.MAIL_PASSWORD}}
+              sender: devellany
+              from: ${{secrets.MAIL_ADDRESS}}
+              to: mamdohlotfy@gmail.com
+              subject: Test Execution Report.
+              body: Click on following link in mail body to show the report.
+              # Optional content type (defaults to text/plain)
+              contentType: text/plain
+              # Click on following link to show the report
+              attachments: '[{"https://mamdouhmansour.github.io/Trial-Project/allure/"}]'
