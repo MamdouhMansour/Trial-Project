@@ -1,0 +1,330 @@
+{
+  "uid" : "4b4933301fa8efff",
+  "name" : "testSuccessTransaction",
+  "fullName" : "api.transactions.tests.TransactionTest.testSuccessTransaction",
+  "historyId" : "73dc456c60dd5aa55a25c2a891ac9272",
+  "time" : {
+    "start" : 1630061186241,
+    "stop" : 1630061188679,
+    "duration" : 2438
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1630061183734,
+      "stop" : 1630061183777,
+      "duration" : 43
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json].",
+      "time" : {
+        "start" : 1630061183765,
+        "stop" : 1630061183772,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1cc3c14742a8d258",
+        "name" : "Attachment: Test Data - JSON",
+        "source" : "1cc3c14742a8d258.json",
+        "type" : "text/json",
+        "size" : 557
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, JSON, java.io.FileInputStream@541afb85]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: Evaluating the actual response status code against the expected one...",
+      "time" : {
+        "start" : 1630061188333,
+        "stop" : 1630061188333,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: Evaluating the actual response status code against the expected one..."
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"POST\" | Target Status Code: \"200\" | Service URL: \"https://devops-tutuka-trial.herokuapp.com/TEST1\" | Content Type: \"application/json\" | Response Time: \"1324ms\"].",
+      "time" : {
+        "start" : 1630061188402,
+        "stop" : 1630061188665,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9ed77fe028364f7",
+        "name" : "Attachment: API Request - JSON Body",
+        "source" : "e9ed77fe028364f7.json",
+        "type" : "text/json",
+        "size" : 557
+      }, {
+        "uid" : "f7785c636736ebfb",
+        "name" : "Attachment: API Response - JSON Body",
+        "source" : "f7785c636736ebfb.json",
+        "type" : "text/json",
+        "size" : 20
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "API Action [PerformRequest] successfully performed. With the following test data [Request Type: \"POST\" | Target Status Code: \"200\" | Service URL: \"https://devops-tutuka-trial.herokuapp.com/TEST1\" | Content Type: \"application/json\" | Response Time: \"1324ms\"]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[API Request, JSON Body, java.io.ByteArrayInputStream@16c3388e], null, [API Response, JSON Body, java.io.ByteArrayInputStream@cec1ce2]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assertion [ValidateEquals] PASSED. Expected [ok] and Actual [ok]. Comparison Type [EQUALS]. Validation Type [POSITIVE].",
+      "time" : {
+        "start" : 1630061188678,
+        "stop" : 1630061188678,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Assertion [ValidateEquals] PASSED. Expected [ok] and Actual [ok]. Comparison Type [EQUALS]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cd589f76f5257297",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testSuccessTransaction",
+      "source" : "cd589f76f5257297.txt",
+      "type" : "text/plain",
+      "size" : 1656
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1630061188735,
+      "stop" : 1630061188955,
+      "duration" : 220
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b111212daea7f697",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210827-104628",
+      "source" : "b111212daea7f697.txt",
+      "type" : "text/plain",
+      "size" : 5762
+    }, {
+      "uid" : "b4f07e9b4117eb94",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "b4f07e9b4117eb94.html",
+      "type" : "text/html",
+      "size" : 19147
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessTransaction"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-6"
+  }, {
+    "name" : "thread",
+    "value" : "4119@fv-az83-6.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49bc7303e543ce66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630058003853,
+        "stop" : 1630058015517,
+        "duration" : 11664
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "b7359ddfaeee6ff",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/8//#testresult/b7359ddfaeee6ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630060904666,
+          "stop" : 1630060914418,
+          "duration" : 9752
+        }
+      }, {
+        "uid" : "25383159822256b8",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/7//#testresult/25383159822256b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058003853,
+          "stop" : 1630058015517,
+          "duration" : 11664
+        }
+      }, {
+        "uid" : "d88aeb3169441307",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/5//#testresult/d88aeb3169441307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058003853,
+          "stop" : 1630058015517,
+          "duration" : 11664
+        }
+      }, {
+        "uid" : "2e89d993b821c196",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/2e89d993b821c196",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058003853,
+          "stop" : 1630058015517,
+          "duration" : 11664
+        }
+      }, {
+        "uid" : "6fe5a757ad652fa0",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/6fe5a757ad652fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630052731441,
+          "stop" : 1630052735511,
+          "duration" : 4070
+        }
+      }, {
+        "uid" : "57c09e9601851051",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/57c09e9601851051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630052731441,
+          "stop" : 1630052735511,
+          "duration" : 4070
+        }
+      }, {
+        "uid" : "f6344bc31610041f",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/3//#testresult/f6344bc31610041f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630052731441,
+          "stop" : 1630052735511,
+          "duration" : 4070
+        }
+      }, {
+        "uid" : "11c84692625301b9",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/11c84692625301b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630052731441,
+          "stop" : 1630052735511,
+          "duration" : 4070
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4b4933301fa8efff.json",
+  "parameterValues" : [ ]
+}

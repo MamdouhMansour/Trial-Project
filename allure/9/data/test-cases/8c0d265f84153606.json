@@ -1,0 +1,177 @@
+{
+  "uid" : "8c0d265f84153606",
+  "name" : "testMerchantCategoryCodeIsNotEmpty",
+  "fullName" : "api.transactions.tests.TransactionTest.testMerchantCategoryCodeIsNotEmpty",
+  "historyId" : "3465870dcd99293f1bc27c11acb423cc",
+  "time" : {
+    "start" : 1630058003789,
+    "stop" : 1630058003847,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1630058000232,
+      "stop" : 1630058000313,
+      "duration" : 81
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json].",
+      "time" : {
+        "start" : 1630058000300,
+        "stop" : 1630058000311,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b16296aa9ac09c09",
+        "name" : "Attachment: Test Data - JSON",
+        "source" : "b16296aa9ac09c09.json",
+        "type" : "text/json",
+        "size" : 557
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "1"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, JSON, java.io.FileInputStream@69a5c6be]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: merchant_category_code Shouldn't be null",
+      "time" : {
+        "start" : 1630058003844,
+        "stop" : 1630058003845,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: merchant_category_code Shouldn't be null"
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cc2d0d3f7948a0a3",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testMerchantCategoryCodeIsNotEmpty",
+      "source" : "cc2d0d3f7948a0a3.txt",
+      "type" : "text/plain",
+      "size" : 690
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1630058015644,
+      "stop" : 1630058015986,
+      "duration" : 342
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce2cf0958392dd8b",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210827-115335",
+      "source" : "ce2cf0958392dd8b.txt",
+      "type" : "text/plain",
+      "size" : 5768
+    }, {
+      "uid" : "9e04c4d11c4e77f7",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "9e04c4d11c4e77f7.html",
+      "type" : "text/html",
+      "size" : 18640
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMerchantCategoryCodeIsNotEmpty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V147ES9"
+  }, {
+    "name" : "thread",
+    "value" : "12052@DESKTOP-V147ES9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c0d265f84153606.json",
+  "parameterValues" : [ ]
+}
