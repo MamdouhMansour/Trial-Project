@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-V147ES9",
+    "children" : [ {
+      "name" : "12052@DESKTOP-V147ES9.main(1)",
+      "children" : [ {
+        "name" : "testTypeIsNotEmpty",
+        "uid" : "fc903a27bac2c399",
+        "parentUid" : "88980cca553b0c74f3f0619bd4050eca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058015582,
+          "stop" : 1630058015626,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChannelIsNotEmpty",
+        "uid" : "ed7a8c7faeb13ffa",
+        "parentUid" : "88980cca553b0c74f3f0619bd4050eca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058000507,
+          "stop" : 1630058003633,
+          "duration" : 3126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testMerchantCategoryCodeIsNotEmpty",
+        "uid" : "c22488df8f70d578",
+        "parentUid" : "88980cca553b0c74f3f0619bd4050eca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058003789,
+          "stop" : 1630058003847,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessTransaction",
+        "uid" : "25383159822256b8",
+        "parentUid" : "88980cca553b0c74f3f0619bd4050eca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058003853,
+          "stop" : 1630058015517,
+          "duration" : 11664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testTransactionIdIsNotEmpty",
+        "uid" : "a26648e5f49e73cc",
+        "parentUid" : "88980cca553b0c74f3f0619bd4050eca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630058015525,
+          "stop" : 1630058015577,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88980cca553b0c74f3f0619bd4050eca"
+    } ],
+    "uid" : "29368e316773843029f6c77f94c07ba0"
+  } ],
+  "name" : "timeline"
+}
