@@ -1,0 +1,102 @@
+{
+  "db81003344360369b152a2812fa6d1c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4287a1ca66dd9713",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/4287a1ca66dd9713",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630052735578,
+        "stop" : 1630052735619,
+        "duration" : 41
+      }
+    } ]
+  },
+  "3465870dcd99293f1bc27c11acb423cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0488ac526a09420",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/e0488ac526a09420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630052731375,
+        "stop" : 1630052731435,
+        "duration" : 60
+      }
+    } ]
+  },
+  "dcb513eabbff26c7209bc17a271ae71a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcbc5c1bc11baf38",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/fcbc5c1bc11baf38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630052728375,
+        "stop" : 1630052731209,
+        "duration" : 2834
+      }
+    } ]
+  },
+  "73dc456c60dd5aa55a25c2a891ac9272" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11c84692625301b9",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/11c84692625301b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630052731441,
+        "stop" : 1630052735511,
+        "duration" : 4070
+      }
+    } ]
+  },
+  "3f0be6eb5507d86edb8bedb46cd11c3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e63741a7207b4783",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/e63741a7207b4783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630052735522,
+        "stop" : 1630052735573,
+        "duration" : 51
+      }
+    } ]
+  }
+}
