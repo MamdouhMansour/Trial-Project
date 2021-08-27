@@ -67,7 +67,7 @@ jobs:
             sha: ${{ github.event.pull_request.head.sha }}
             target_url: https://mamdouhmansour.github.io/allure/${{ github.run_number }}
       - name: Send email
-        uses: devellany/send-mailer@v1.0.2
+        uses: wadeww/send-email-action@master
         with:
               server_address: smtp.gmail.com
             # Optional port (defaults to 465)
