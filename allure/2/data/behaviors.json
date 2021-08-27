@@ -2,7 +2,7 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "testChannelIsNotEmpty",
-    "uid" : "fcbc5c1bc11baf38",
+    "uid" : "5846471b40505ce8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -15,7 +15,7 @@
     "parameters" : [ ]
   }, {
     "name" : "testMerchantCategoryCodeIsNotEmpty",
-    "uid" : "e0488ac526a09420",
+    "uid" : "ac2c32ea8774a056",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -28,7 +28,7 @@
     "parameters" : [ ]
   }, {
     "name" : "testSuccessTransaction",
-    "uid" : "11c84692625301b9",
+    "uid" : "6fe5a757ad652fa0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -41,7 +41,7 @@
     "parameters" : [ ]
   }, {
     "name" : "testTransactionIdIsNotEmpty",
-    "uid" : "e63741a7207b4783",
+    "uid" : "913f6b521986a659",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -54,7 +54,7 @@
     "parameters" : [ ]
   }, {
     "name" : "testTypeIsNotEmpty",
-    "uid" : "4287a1ca66dd9713",
+    "uid" : "c8a655bb51dfcf3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
