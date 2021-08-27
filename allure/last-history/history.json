@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "87955a955a2bbc04",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/87955a955a2bbc04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630058015525,
+        "stop" : 1630058015577,
+        "duration" : 52
+      }
+    }, {
       "uid" : "913f6b521986a659",
       "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/913f6b521986a659",
       "status" : "passed",
@@ -51,11 +60,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4c70f37dfba957c",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/4c70f37dfba957c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630058015582,
+        "stop" : 1630058015626,
+        "duration" : 44
+      }
+    }, {
       "uid" : "c8a655bb51dfcf3",
       "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/c8a655bb51dfcf3",
       "status" : "passed",
@@ -98,11 +116,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5f32663a9611477d",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/5f32663a9611477d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630058003789,
+        "stop" : 1630058003847,
+        "duration" : 58
+      }
+    }, {
       "uid" : "ac2c32ea8774a056",
       "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/ac2c32ea8774a056",
       "status" : "passed",
@@ -145,11 +172,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c24fb8251ba8a1bf",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/c24fb8251ba8a1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630058000507,
+        "stop" : 1630058003633,
+        "duration" : 3126
+      }
+    }, {
       "uid" : "5846471b40505ce8",
       "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/5846471b40505ce8",
       "status" : "passed",
@@ -192,11 +228,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2e89d993b821c196",
+      "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/4//#testresult/2e89d993b821c196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630058003853,
+        "stop" : 1630058015517,
+        "duration" : 11664
+      }
+    }, {
       "uid" : "6fe5a757ad652fa0",
       "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/2//#testresult/6fe5a757ad652fa0",
       "status" : "passed",
