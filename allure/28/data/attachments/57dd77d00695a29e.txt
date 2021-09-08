@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testSuccessTransaction]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @08-09-2021 01:48:31.0101 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @08-09-2021 01:48:31.0104 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-09-2021 01:48:31.0104 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://devops-tutuka-trial.herokuapp.com/TEST1" | Content Type: "application/json" | Response Time: "7308ms"]. @08-09-2021 01:48:31.0159 AM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @08-09-2021 01:48:31.0391 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @08-09-2021 01:48:31.0392 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [status]. @08-09-2021 01:48:31.0405 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [ok] and Actual [ok]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-09-2021 01:48:31.0406 A
