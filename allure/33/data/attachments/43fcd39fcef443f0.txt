@@ -1,0 +1,55 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+################################################################################################################################################
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json]. @13-09-2021 01:50:11.0501 AM
+[ReportManager] Successfully created attachment [Test Data - JSON] @13-09-2021 01:50:11.0503 A
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testChannelIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @13-09-2021 01:50:13.0504 A
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testMerchantCategoryCodeIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion Passed: merchant_category_code Shouldn't be null @13-09-2021 01:50:13.0651 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @13-09-2021 01:50:13.0651 A
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testSuccessTransaction]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @13-09-2021 01:50:22.0353 AM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @13-09-2021 01:50:22.0358 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @13-09-2021 01:50:22.0358 AM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://devops-tutuka-trial.herokuapp.com/TEST1" | Content Type: "application/json" | Response Time: "7866ms"]. @13-09-2021 01:50:22.0429 AM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @13-09-2021 01:50:22.0686 AM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @13-09-2021 01:50:22.0686 AM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [status]. @13-09-2021 01:50:22.0704 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [ok] and Actual [ok]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @13-09-2021 01:50:22.0705 A
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testTransactionIdIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion Passed: transaction_id Shouldn't be null @13-09-2021 01:50:22.0748 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @13-09-2021 01:50:22.0749 A
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testTypeIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion Passed: Type Shouldn't be null @13-09-2021 01:50:22.0779 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @13-09-2021 01:50:22.0779 A
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @13-09-2021 01:50:22.0803 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
