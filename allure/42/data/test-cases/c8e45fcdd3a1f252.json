@@ -1,0 +1,376 @@
+{
+  "uid" : "c8e45fcdd3a1f252",
+  "name" : "testMerchantCategoryCodeIsNotEmpty",
+  "fullName" : "api.transactions.tests.TransactionTest.testMerchantCategoryCodeIsNotEmpty",
+  "historyId" : "3465870dcd99293f1bc27c11acb423cc",
+  "time" : {
+    "start" : 1632275594349,
+    "stop" : 1632275594398,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1632275592554,
+      "stop" : 1632275592587,
+      "duration" : 33
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json].",
+      "time" : {
+        "start" : 1632275592559,
+        "stop" : 1632275592568,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fcd49f9d0136743",
+        "name" : "Attachment: Test Data - JSON",
+        "source" : "5fcd49f9d0136743.json",
+        "type" : "text/json",
+        "size" : 557
+      } ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json]."
+      }, {
+        "name" : "attachments",
+        "value" : "[[Test Data, JSON, java.io.FileInputStream@374c3975]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b22360c143f0fdc9",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: beforeClass",
+      "source" : "b22360c143f0fdc9.txt",
+      "type" : "text/plain",
+      "size" : 248
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assertion Passed: merchant_category_code Shouldn't be null",
+      "time" : {
+        "start" : 1632275594396,
+        "stop" : 1632275594397,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "customLog",
+        "value" : "Assertion Passed: merchant_category_code Shouldn't be null"
+      }, {
+        "name" : "stepLog",
+        "value" : "Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]."
+      }, {
+        "name" : "attachments",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f794b914f74fd47a",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: testMerchantCategoryCodeIsNotEmpty",
+      "source" : "f794b914f74fd47a.txt",
+      "type" : "text/plain",
+      "size" : 689
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1632275603276,
+      "stop" : 1632275603517,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "763c19241d1588ca",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210922-015323",
+      "source" : "763c19241d1588ca.txt",
+      "type" : "text/plain",
+      "size" : 5762
+    }, {
+      "uid" : "98402ed03d756fbe",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "98402ed03d756fbe.html",
+      "type" : "text/html",
+      "size" : 19115
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMerchantCategoryCodeIsNotEmpty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.transactions.tests.TransactionTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-507"
+  }, {
+    "name" : "thread",
+    "value" : "2649@fv-az28-507.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 41,
+        "unknown" : 0,
+        "total" : 41
+      },
+      "items" : [ {
+        "uid" : "18e39a3fe8eb6fd9",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/41//#testresult/18e39a3fe8eb6fd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632189145518,
+          "stop" : 1632189145548,
+          "duration" : 30
+        }
+      }, {
+        "uid" : "8d72c8ad4f131659",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/40//#testresult/8d72c8ad4f131659",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632102809695,
+          "stop" : 1632102809740,
+          "duration" : 45
+        }
+      }, {
+        "uid" : "5eb8f248276819cb",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/39//#testresult/5eb8f248276819cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632016401577,
+          "stop" : 1632016401631,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "8b1ea57a147b05ae",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/38//#testresult/8b1ea57a147b05ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631930016197,
+          "stop" : 1631930016223,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "6a433b21b886dc2f",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/37//#testresult/6a433b21b886dc2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631843860509,
+          "stop" : 1631843860533,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "d792e7bc92419830",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/36//#testresult/d792e7bc92419830",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631757395140,
+          "stop" : 1631757395174,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "ed50cbf7b5b5595e",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/35//#testresult/ed50cbf7b5b5595e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631670619895,
+          "stop" : 1631670619935,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "e45c12a4c0e84218",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/34//#testresult/e45c12a4c0e84218",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631584285098,
+          "stop" : 1631584285144,
+          "duration" : 46
+        }
+      }, {
+        "uid" : "c95829a48ebf4c87",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/33//#testresult/c95829a48ebf4c87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631497813608,
+          "stop" : 1631497813656,
+          "duration" : 48
+        }
+      }, {
+        "uid" : "baeeefb15c5233b9",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/32//#testresult/baeeefb15c5233b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631411551826,
+          "stop" : 1631411551868,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "a944d2118b98adae",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/31//#testresult/a944d2118b98adae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631324800344,
+          "stop" : 1631324800390,
+          "duration" : 46
+        }
+      }, {
+        "uid" : "a3f314ad02e61e9a",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/30//#testresult/a3f314ad02e61e9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631238742799,
+          "stop" : 1631238742830,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "89ed990cb3f4db8",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/29//#testresult/89ed990cb3f4db8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631152351337,
+          "stop" : 1631152351395,
+          "duration" : 58
+        }
+      }, {
+        "uid" : "ad14051b14316501",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/28//#testresult/ad14051b14316501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631065702884,
+          "stop" : 1631065702913,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "87e24533d4c556a4",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/27//#testresult/87e24533d4c556a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630979113329,
+          "stop" : 1630979113353,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "5e175ab4759470aa",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/26//#testresult/5e175ab4759470aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630893284706,
+          "stop" : 1630893284742,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "c17497720830ebb7",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/25//#testresult/c17497720830ebb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630806644248,
+          "stop" : 1630806644302,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "59b01484d99bc596",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/24//#testresult/59b01484d99bc596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630720166046,
+          "stop" : 1630720166100,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "b0d98deaf1d54844",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/23//#testresult/b0d98deaf1d54844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630633725756,
+          "stop" : 1630633725805,
+          "duration" : 49
+        }
+      }, {
+        "uid" : "bee0997b9b21ed0d",
+        "reportUrl" : "https://MamdouhMansour.github.io/Trial-Project/allure/22//#testresult/bee0997b9b21ed0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630547276040,
+          "stop" : 1630547276081,
+          "duration" : 41
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c8e45fcdd3a1f252.json",
+  "parameterValues" : [ ]
+}
