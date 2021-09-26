@@ -1,0 +1,7 @@
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testTypeIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion Passed: Type Shouldn't be null @26-09-2021 01:52:10.0750 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @26-09-2021 01:52:10.0751 A
