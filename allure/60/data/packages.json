@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "api.transactions.tests.TransactionTest",
+    "children" : [ {
+      "name" : "testChannelIsNotEmpty",
+      "uid" : "2f32b7597bfbe926",
+      "parentUid" : "6969e56160b670bf1d160cfe3d30d65e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633830704815,
+        "stop" : 1633830706617,
+        "duration" : 1802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testMerchantCategoryCodeIsNotEmpty",
+      "uid" : "cac11fcc144c37c2",
+      "parentUid" : "6969e56160b670bf1d160cfe3d30d65e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633830706699,
+        "stop" : 1633830706756,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSuccessTransaction",
+      "uid" : "1749bde36e04ad02",
+      "parentUid" : "6969e56160b670bf1d160cfe3d30d65e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633830706758,
+        "stop" : 1633830713418,
+        "duration" : 6660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTransactionIdIsNotEmpty",
+      "uid" : "17b87adf9bdaba13",
+      "parentUid" : "6969e56160b670bf1d160cfe3d30d65e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633830713424,
+        "stop" : 1633830713441,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTypeIsNotEmpty",
+      "uid" : "5f0cd4be0362e2e4",
+      "parentUid" : "6969e56160b670bf1d160cfe3d30d65e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633830713443,
+        "stop" : 1633830713459,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "api.transactions.tests.TransactionTest"
+  } ],
+  "name" : "packages"
+}
