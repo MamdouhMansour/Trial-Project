@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "SHAFT: Custom Suite",
+    "children" : [ {
+      "name" : "SHAFT: Custom Test",
+      "children" : [ {
+        "name" : "api.transactions.tests.TransactionTest",
+        "children" : [ {
+          "name" : "testChannelIsNotEmpty",
+          "uid" : "3709c5f950abcfde",
+          "parentUid" : "e12b572f0e607b6a63217816cbb3d3e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633917413386,
+            "stop" : 1633917415053,
+            "duration" : 1667
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testMerchantCategoryCodeIsNotEmpty",
+          "uid" : "807fd3820a2b79bf",
+          "parentUid" : "e12b572f0e607b6a63217816cbb3d3e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633917415125,
+            "stop" : 1633917415168,
+            "duration" : 43
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testSuccessTransaction",
+          "uid" : "1aae52c1ca0c5f95",
+          "parentUid" : "e12b572f0e607b6a63217816cbb3d3e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633917415172,
+            "stop" : 1633917423220,
+            "duration" : 8048
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testTransactionIdIsNotEmpty",
+          "uid" : "46cf3fb9bbdaae2",
+          "parentUid" : "e12b572f0e607b6a63217816cbb3d3e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633917423227,
+            "stop" : 1633917423254,
+            "duration" : 27
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testTypeIsNotEmpty",
+          "uid" : "f54f605846d56ef1",
+          "parentUid" : "e12b572f0e607b6a63217816cbb3d3e1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633917423258,
+            "stop" : 1633917423284,
+            "duration" : 26
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e12b572f0e607b6a63217816cbb3d3e1"
+      } ],
+      "uid" : "62b459a2d7652d6aea6a24c119fa3f77"
+    } ],
+    "uid" : "5543348f55088c3669a8bed2f979ca17"
+  } ],
+  "name" : "suites"
+}
