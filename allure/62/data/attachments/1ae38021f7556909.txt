@@ -1,0 +1,7 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testMerchantCategoryCodeIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion Passed: merchant_category_code Shouldn't be null @12-10-2021 01:56:42.0574 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @12-10-2021 01:56:42.0574 A
