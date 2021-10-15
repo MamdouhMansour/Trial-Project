@@ -1,2 +1,0 @@
-[ReportManager] Successfully loaded the following test data file [src/test/resources/TestDataFiles/sample_transaction.json]. @25-09-2021 01:49:40.0416 AM
-[ReportManager] Successfully created attachment [Test Data - JSON] @25-09-2021 01:49:40.0419 A

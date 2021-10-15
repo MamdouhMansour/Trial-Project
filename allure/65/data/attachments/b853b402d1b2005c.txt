@@ -1,0 +1,7 @@
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testTransactionIdIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion Passed: transaction_id Shouldn't be null @15-10-2021 01:55:18.0909 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @15-10-2021 01:55:18.0910 A
