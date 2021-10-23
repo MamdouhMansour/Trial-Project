@@ -1,0 +1,6 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[api.transactions.tests.TransactionTest.testChannelIsNotEmpty]
+################################################################################################################################################
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @23-10-2021 01:55:11.0482 A
