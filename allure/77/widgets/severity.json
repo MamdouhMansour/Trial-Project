@@ -1,0 +1,51 @@
+[ {
+  "uid" : "41c4164c1f30d5c5",
+  "name" : "testTypeIsNotEmpty",
+  "time" : {
+    "start" : 1635299297429,
+    "stop" : 1635299297441,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5fa50a933874bff",
+  "name" : "testChannelIsNotEmpty",
+  "time" : {
+    "start" : 1635299288744,
+    "stop" : 1635299290295,
+    "duration" : 1551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "524086b32dadd38d",
+  "name" : "testTransactionIdIsNotEmpty",
+  "time" : {
+    "start" : 1635299297413,
+    "stop" : 1635299297427,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78f46f68123f4487",
+  "name" : "testMerchantCategoryCodeIsNotEmpty",
+  "time" : {
+    "start" : 1635299290420,
+    "stop" : 1635299290451,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e73c5d71378db72f",
+  "name" : "testSuccessTransaction",
+  "time" : {
+    "start" : 1635299290466,
+    "stop" : 1635299297410,
+    "duration" : 6944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
